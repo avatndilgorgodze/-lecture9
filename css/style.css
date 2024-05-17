@@ -1,0 +1,135 @@
+.container{
+    display:flex ;
+    flex-direction:row ;
+    justify-content:space-between;
+    align-items:center ;
+    max-width: 1180px;
+    width:100% ;
+    margin:  0 auto ;
+} 
+.img1{    
+    width:50px ;
+    height:50px ;
+
+}
+ul{
+    display: flex;
+    gap: 50px;
+}
+li a{
+    color: #817b7b;
+    font-size:17px ;
+}
+.fa-bars{
+    color:#817b7b ;
+    font-size:38px; 
+    display:none ;
+}
+@media(max-width:700px){
+    nav{
+        display:none ;
+    }
+    .fa-bars{
+        display: block;
+    }
+}
+.s-1{
+    height: 606px;
+    background-image: url(../images/bg.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position:center ;
+}
+.hwrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hwrapper h1{
+    font-family: Helvetica;
+font-size: 79px;
+font-weight: 700;
+font-style: normal;
+line-height: normal;
+color:#FFF;
+}
+.hwrapper h4{
+    font-family: Helvetica;
+font-size: 19px;
+font-weight: 400;
+font-style: normal;
+line-height: normal;
+color:#FFF ;
+}
+@media (max-width:626px){
+    .hwrapper h1{
+        font-size:40px ;
+    }
+}
+.flex-container{
+    display: flex;
+    width:250px ;
+    flex-direction:column ;
+    margin:20px ;
+    margin-left:30px ;
+}
+.flex-container h3{
+    font-family: Helvetica;
+font-size: 17px;
+font-weight: 400;
+line-height: 19.55px;
+text-align: left;
+color:#817b7b ;
+padding-bottom:5px ;
+}
+.flex-container h2{
+    font-family: Helvetica;
+font-size: 28px;
+font-weight: 400;
+line-height: 32.2px;
+text-align: left;
+}
+.flex-container h4{
+    font-family: Helvetica;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+text-align: left;
+color:#817b7b ;
+padding-top: 10px;
+}
+.s-2{
+    display: flex;
+    max-width: 1400px;
+    margin-top: 20px;
+    justify-content:space-between ;
+    padding-top:20px ;
+
+}
+.flex-container2 div{
+width:300px ;
+display:inline-block ;
+margin-left:15px;
+margin-top:10px ;
+}
+.h1{
+    font-family: Helvetica;
+font-size: 19px;
+font-weight: 400;
+line-height: 21.85px;
+text-align: left;
+padding-top:5px ;
+}
+.p{
+    font-family: Helvetica;
+font-size: 18px;
+font-weight: 400;
+line-height: 20.7px;
+text-align: left;
+color:#817b7b ;
+width:200px ;
+padding-top:5px ;
+}
